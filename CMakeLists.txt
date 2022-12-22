@@ -48,4 +48,6 @@ install(EXPORT libtelnet-export
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/libtelnet
 )
 
+add_subdirectory(telnetd)
+
 include(CPack)
